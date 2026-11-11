@@ -1,0 +1,55 @@
+/* General website styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    background-color: #236b45;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+    font-size: 32px;
+}
+
+/* Subheadings */
+h2 {
+    color: #236b45;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+/* Content sections */
+body > h2,
+body > p,
+body > ul {
+    margin: 20px 30px;
+}
+
+/* Topics list */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    padding: 5px;
+}
+
+/* Website background */
+body {
+    padding-bottom: 30px;
+}
