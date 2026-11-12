@@ -1,140 +1,412 @@
-<!DOCTYPE html>
+
+        
+
+      <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Food Safety and Quality Hub - Learn about GHP, GMP and Food Quality Control.">
     <title>Food Safety & Quality Hub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header id="home">
-        <h1>Food Safety & Quality Hub</h1>
-        <p>Your Guide to Food Science, Hygiene and Quality</p>
-    </header>
+<!-- NAVIGATION -->
+<header class="header">
+    <a href="#home" class="logo">
+        <span class="logo-icon">✳</span>
+        Food Safety <span>& Quality Hub</span>
+    </a>
 
-    <nav>
+    <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#ghp">GHP</a>
         <a href="#gmp">GMP</a>
-        <a href="#contact">Contact</a>
+        <a href="#quality">Quality Control</a>
+        <a href="#contact" class="contact-btn">Contact</a>
     </nav>
+</header>
 
-    <main>
-        <section id="about">
-            <h2>About Food Technology</h2>
+<!-- HOME SECTION -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="tagline">FOOD SAFETY • HYGIENE • QUALITY</span>
+
+        <h1>
+            Better Food Practices.
+            <span>Safer Food,</span>
+            Every Day.
+        </h1>
+
+        <p>
+            Welcome to Food Safety & Quality Hub!
+            Explore the science of food hygiene, Good Manufacturing
+            Practices and Food Quality Control. Learn how safe food
+            practices protect consumers and improve food quality
+            from farm to fork.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#learn" class="primary-btn">Explore Topics ↗</a>
+            <a href="#about" class="secondary-btn">About This Website</a>
+        </div>
+
+        <p class="hero-note">
+            ✓ A student-led educational learning platform
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1100&q=85"
+            alt="Fresh fruits and vegetables">
+        <div class="image-badge">
+            <strong>FOOD SAFETY</strong>
+            <span>Matters Every Day</span>
+        </div>
+    </div>
+</section>
+
+<!-- INTRODUCTION -->
+<section class="introduction section" id="learn">
+    <div class="section-title">
+        <span>WELCOME TO THE HUB</span>
+        <h2>Understanding Food Safety & Quality</h2>
+    </div>
+
+    <p class="intro-text">
+        Food safety is an essential part of food production,
+        processing, packaging, storage and distribution.
+        It ensures that food is safe for consumption and meets
+        required quality standards. Good Hygiene Practices (GHP),
+        Good Manufacturing Practices (GMP) and Food Quality Control
+        play important roles in maintaining food safety and quality.
+    </p>
+
+    <div class="highlight-grid">
+        <div class="highlight-card">
+            <span>01</span>
+            <h3>Prevent Contamination</h3>
+            <p>Follow hygiene practices to reduce biological,
+            chemical and physical contamination.</p>
+        </div>
+
+        <div class="highlight-card">
+            <span>02</span>
+            <h3>Maintain Standards</h3>
+            <p>Use proper manufacturing procedures and
+            documented processes.</p>
+        </div>
+
+        <div class="highlight-card">
+            <span>03</span>
+            <h3>Ensure Quality</h3>
+            <p>Inspect and test food products to check
+            whether they meet specifications.</p>
+        </div>
+    </div>
+</section>
+
+<!-- GHP SECTION -->
+<section class="topic-section section" id="ghp">
+    <div class="section-title">
+        <span>01 / FOOD HYGIENE</span>
+        <h2>Good Hygiene Practices (GHP)</h2>
+        <p>
+            Clean habits and hygienic conditions are the foundation
+            of safe food handling.
+        </p>
+    </div>
+
+    <div class="topic-layout">
+        <div class="topic-image">
+            <img
+                src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=1000&q=85"
+                alt="Clean food preparation environment">
+        </div>
+
+        <div class="topic-information">
+            <h3>What is GHP?</h3>
             <p>
-                Food Technology focuses on food processing,
-                preservation, quality and safety.
+                Good Hygiene Practices are basic conditions and
+                activities that help maintain a hygienic environment
+                throughout food handling and preparation.
+                GHP helps prevent contamination and supports
+                the production of safe food.
             </p>
-        </section>
 
-        <section id="ghp">
-            <h2>Good Hygiene Practices (GHP)</h2>
+            <h3>Key Elements of GHP</h3>
+            <ul>
+                <li>Personal hygiene and proper handwashing</li>
+                <li>Cleaning and sanitation of equipment</li>
+                <li>Safe water supply</li>
+                <li>Pest control and waste management</li>
+                <li>Prevention of cross-contamination</li>
+                <li>Proper food handling and storage</li>
+                <li>Clean food preparation areas</li>
+            </ul>
+
+            <div class="example-box">
+                <strong>Practical Example:</strong>
+                Food handlers should wash their hands properly,
+                wear clean protective clothing and keep food-contact
+                surfaces clean.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GMP SECTION -->
+<section class="topic-section alternate section" id="gmp">
+    <div class="section-title">
+        <span>02 / FOOD MANUFACTURING</span>
+        <h2>Good Manufacturing Practices (GMP)</h2>
+        <p>
+            Proper systems and controlled processes help maintain
+            consistent food production.
+        </p>
+    </div>
+
+    <div class="topic-layout reverse">
+        <div class="topic-image">
+            <img
+                src="https://images.unsplash.com/photo-1581093458791-9d42e3c5e6e8?auto=format&fit=crop&w=1000&q=85"
+                alt="Modern food manufacturing facility">
+        </div>
+
+        <div class="topic-information">
+            <h3>What is GMP?</h3>
             <p>
-                GHP helps maintain cleanliness and hygiene
-                during food handling and preparation.
+                Good Manufacturing Practices are guidelines and
+                procedures that help ensure food products are
+                consistently manufactured and controlled according
+                to appropriate quality and safety requirements.
             </p>
-        </section>
 
-        <section id="gmp">
-            <h2>Good Manufacturing Practices (GMP)</h2>
+            <h3>Key Elements of GMP</h3>
+            <ul>
+                <li>Proper building and facility design</li>
+                <li>Equipment maintenance and calibration</li>
+                <li>Employee training and responsibilities</li>
+                <li>Raw material inspection</li>
+                <li>Process control and monitoring</li>
+                <li>Documentation and record keeping</li>
+                <li>Proper storage and transportation</li>
+            </ul>
+
+            <div class="example-box">
+                <strong>Practical Example:</strong>
+                Food processing equipment should be maintained,
+                cleaned and checked regularly. Production records
+                should be properly documented.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- QUALITY CONTROL SECTION -->
+<section class="topic-section section" id="quality">
+    <div class="section-title">
+        <span>03 / FOOD QUALITY</span>
+        <h2>Food Quality Control</h2>
+        <p>
+            Testing and inspection help maintain product quality,
+            consistency and safety.
+        </p>
+    </div>
+
+    <div class="topic-layout">
+        <div class="topic-image">
+            <img
+                src="https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?auto=format&fit=crop&w=1000&q=85"
+                alt="Laboratory quality testing">
+        </div>
+
+        <div class="topic-information">
+            <h3>What is Food Quality Control?</h3>
             <p>
-                GMP provides guidelines for producing
-                safe and quality food products.
+                Food Quality Control (QC) is the process of inspecting,
+                measuring and testing raw materials, in-process
+                products and finished food products to check whether
+                they meet defined quality specifications.
             </p>
-        </section>
-    </main>
 
-    <footer id="contact">
-        <p>Created by a Food Technology Student</p>
-        <p>Food Safety & Quality Hub</p>
-    </footer>
+            <h3>Major Areas of Quality Control</h3>
+            <ul>
+                <li>Raw material inspection</li>
+                <li>Physical quality testing</li>
+                <li>Chemical analysis</li>
+                <li>Microbiological testing</li>
+                <li>Packaging and labelling inspection</li>
+                <li>Storage condition monitoring</li>
+                <li>Finished product evaluation</li>
+            </ul>
+
+            <div class="example-box">
+                <strong>Practical Example:</strong>
+                A food quality inspector may check colour, odour,
+                texture, pH, moisture, packaging integrity and
+                relevant microbiological parameters.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOD SAFETY VS QUALITY -->
+<section class="comparison section">
+    <div class="section-title">
+        <span>KNOW THE DIFFERENCE</span>
+        <h2>Food Safety vs Food Quality</h2>
+    </div>
+
+    <div class="comparison-grid">
+        <div class="comparison-card">
+            <h3>Food Safety</h3>
+            <p>
+                Food safety focuses on ensuring that food does not
+                cause harm to consumers when it is prepared and
+                consumed as intended.
+            </p>
+            <strong>Examples:</strong>
+            <p>Pathogen control, allergen management,
+            chemical hazards and foreign matter prevention.</p>
+        </div>
+
+        <div class="comparison-card">
+            <h3>Food Quality</h3>
+            <p>
+                Food quality focuses on whether a product meets
+                expected characteristics and defined specifications.
+            </p>
+            <strong>Examples:</strong>
+            <p>Taste, colour, aroma, texture, consistency,
+            appearance and packaging.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about-section section" id="about">
+    <div class="about-card">
+        <div class="about-avatar">PP</div>
+
+        <div class="about-content">
+            <span class="section-label">ABOUT THE CREATOR</span>
+
+            <h2>About This Website</h2>
+
+            <p>
+                Welcome to Food Safety & Quality Hub!
+                This website is created by
+                <strong>Pratibha Pant, a Food Technology student</strong>,
+                as an educational project to share knowledge about
+                food safety, hygiene, manufacturing practices and
+                food quality control.
+            </p>
+
+            <p>
+                The main objective of this platform is to make
+                food science concepts easy to understand through
+                simple explanations, useful examples and visual
+                learning resources. It aims to encourage awareness
+                about hygienic food handling, safe production
+                practices and quality assurance.
+            </p>
+
+            <p>
+                Whether you are a student or someone interested
+                in food science, this hub can help you explore
+                the fundamentals of safer and better-quality food.
+            </p>
+
+            <h3>Explore. Learn. Ensure Food Safety.</h3>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section section" id="contact">
+    <div class="section-title">
+        <span>LET'S CONNECT</span>
+        <h2>Get In Touch</h2>
+        <p>
+            Connect with me for learning, collaboration
+            and discussions related to Food Technology.
+        </p>
+    </div>
+
+    <div class="contact-grid">
+
+        <a class="contact-card"
+           href="mailto:pratibhapant36@gmail.com">
+            <div class="contact-icon">✉</div>
+            <div>
+                <small>EMAIL ADDRESS</small>
+                <h3>pratibhapant36@gmail.com</h3>
+            </div>
+            <span>↗</span>
+        </a>
+
+        <a class="contact-card"
+           href="https://www.linkedin.com/in/pratibha-pant-818054383"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div class="contact-icon">in</div>
+            <div>
+                <small>LINKEDIN PROFILE</small>
+                <h3>Visit My LinkedIn</h3>
+            </div>
+            <span>↗</span>
+        </a>
+
+        <a class="contact-card"
+           href="https://github.com/pratibha1506"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div class="contact-icon">⌘</div>
+            <div>
+                <small>GITHUB PROFILE</small>
+                <h3>Explore My GitHub</h3>
+            </div>
+            <span>↗</span>
+        </a>
+
+    </div>
+
+    <div class="creator-credit">
+        <p><strong>Created by: Pratibha Pant</strong></p>
+        <p>Food Technology Student</p>
+        <p>Passionate about Food Safety, Hygiene & Quality.</p>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <a href="#home" class="footer-logo">
+        ✳ Food Safety & Quality Hub
+    </a>
+
+    <p>Created by Pratibha Pant | Food Technology Student</p>
+
+    <p>
+        Promoting Food Safety, Hygiene and Quality Awareness.
+    </p>
+
+    <p class="copyright">
+        © 2026 Food Safety & Quality Hub.
+        Educational Student Project.
+    </p>
+</footer>
 
 </body>
 </html>
 
-<section id="contact" class="contact-section">
-    <div class="contact-heading">
-        <span>GET IN TOUCH</span>
-        <h2>Let's Connect!</h2>
-        <p>
-            Have questions about Food Technology,
-            Food Safety or Quality Control?
-            Feel free to connect with me.
-        </p>
-    </div>
-
-    <div class="contact-container">
-
-        <div class="contact-info">
-            <h3>About the Creator</h3>
-
-            <p>
-                👩‍🔬 <strong>Created by:</strong>
-                Pratibha Pant
-            </p>
-
-            <p>
-                🎓 Food Technology Student
-            </p>
-
-            <p>
-                📧 <strong>Email:</strong>
-                <a href="mailto:pratibhapant36@gmail.com">
-                    pratibhapant36@gmail.com
-                </a>
-            </p>
-
-            <p>
-                💼 <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/pratibha-pant-818054383"
-                   target="_blank">
-                    Visit My LinkedIn Profile
-                </a>
-            </p>
-
-            <p>
-                💻 <strong>GitHub:</strong>
-                <a href="https://github.com/pratibha1506"
-                   target="_blank">
-                    Visit My GitHub Profile
-                </a>
-            </p>
-
-            <h4>Explore. Learn. Ensure Food Safety.</h4>
-        </div>
-
-        <div class="contact-form">
-            <h3>Send a Message</h3>
-
-            <form>
-                <input type="text"
-                       placeholder="Your Name" required>
-
-                <input type="email"
-                       placeholder="Your Email" required>
-
-                <input type="text"
-                       placeholder="Subject">
-
-                <textarea
-                    placeholder="Write your message here..."
-                    rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Food Safety & Quality Hub</p>
-    <p>Created by Pratibha Pant | Food Technology Student</p>
-    <p>Promoting Food Safety, Hygiene & Quality Awareness</p>
-</footer>
-
-      
+         
